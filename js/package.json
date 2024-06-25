@@ -1,0 +1,15 @@
+{
+  "name": "@padel-js/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "lerna": "^8.1.5",
+    "rollup": "^4.18.0"
+  }
+}

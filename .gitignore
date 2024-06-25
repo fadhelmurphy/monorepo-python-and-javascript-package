@@ -1,0 +1,12 @@
+# javascript
+node_modules
+dist
+yarn*
+package-lock*
+
+# python
+__pycache__/*
+*whl
+*tar.gz
+
+.env*

@@ -1,0 +1,33 @@
+{
+  "name": "@padel-js/js-package2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Fadhel ngepush ⚡ <fadhelijlalfalah@gmail.com>",
+  "license": "ISC",
+  "main": "lib/js-package2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhelmurphy/monorepo-python-and-javascript-package.git"
+  },
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.js --bundleConfigAsCjs",
+    "single": "lerna exec --scope @padel-js/$packages -- rollup -c=../../rollup.config.js --bundleConfigAsCjs",
+    "test": "node ./__tests__/js-package2.test.js"
+  },
+  "dependencies": {
+    "@padel-js/js-package1": "file:../js-package1"
+  },
+  "bugs": {
+    "url": "https://github.com/fadhelmurphy/monorepo-python-and-javascript-package/issues"
+  },
+  "homepage": "https://github.com/fadhelmurphy/monorepo-python-and-javascript-package#readme"
+}

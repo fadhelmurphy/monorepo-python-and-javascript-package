@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "padel-py"
+version = "0.1.0"
+description = ""
+authors = ["Fadhel ngepush <fadhelijlalfalah@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.repositories]
+my-nexus-repo = { url = "http://your-nexus-repo:8081/repository/pypi-hosted/" }

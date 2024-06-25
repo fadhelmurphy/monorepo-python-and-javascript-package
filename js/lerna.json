@@ -1,0 +1,18 @@
+{
+  "npmClient": "npm",
+  "version": "independent",
+  "private": true,
+  "bootstrap": {
+    "npmClientArgs": ["--no-package-lock"]
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "registry": "http://your-nexus-repo:8081/repository/npm-hosted/",
+      "allowBranch": ["master"]
+    }
+  },
+  "useNx": false
+}
